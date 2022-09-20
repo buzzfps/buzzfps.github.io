@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi+Ink&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -6,6 +8,10 @@
 body{
     background-color: black;
 }
+ul{
+    color: white;
+    font-family: 'Reem Kufi Ink';
+}
 
 #bola{
     border: 3px solid black;
@@ -13,6 +19,7 @@ body{
     width: 110px;
     height: 110px;
     border-radius: 75px;
+    margin-left: 50px;
 }
 header img{
     width: 100px;
@@ -24,7 +31,121 @@ header{
     border: 5px solid white;
     display: flex;
     border-radius: 73px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
 }
-#inicio > ul{
+li{
     list-style: none;
+    font-style: normal;
+    font-size: 32px;
+    padding: 23px;
 }
+ul{
+    display: flex;
+}
+li:hover{
+    cursor: pointer;
+    text-shadow: 4px 6px 7px;
+    color: white;
+}
+.pt1{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 768px;
+    height: 640px;
+    margin-top: 150px;
+    margin-left: 50px;
+    
+    border: 5px solid #FFFFFF;
+    border-radius: 31px;
+}
+#bolafoda1{
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 6.56%;
+    right: 87.87%;
+    top: 2.21%;
+    bottom: 91.81%;
+    border-radius: 75px ;
+
+    background: #FF0000; 
+}
+#bolafoda2{
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 15.71%;
+    right: 78.73%;
+    top: 2.21%;
+    bottom: 91.81%;
+    border-radius: 75px;
+
+    background: #FFE600;
+}
+#bolafoda3{
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 24.85%;
+    right: 69.58%;
+    top: 2.21%;
+    bottom: 91.81%;
+
+    background: #00FF19;
+    border-radius: 75px;
+}
+#linha{
+    position: absolute;
+    top: 10.62%;
+    bottom: 89.38%;
+    width: 763px;
+
+    border: 4px solid #FFFFFF;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.caixadetexto1{
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 3.58%;
+    right: 17.3%;
+    top: 14.6%;
+    bottom: 71.24%;
+    width: 607.68px;
+    height: 90.62px;
+    color:#0084FE;
+
+    border: 4px solid #FFFFFF;
+    border-radius: 27px;
+    font-family: 'Reem Kufi Ink';
+    align:left;
+    padding: 23px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.caixadetexto2{
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 3.59%;
+    right: 10.4%;
+    top: 31.29%;
+    bottom: 40.29%;
+    color:#0084FE;
+
+    border: 4px solid #FFFFFF;
+    border-radius: 27px;
+    font-family: 'Reem Kufi Ink';
+    justify-content: center;
+    align-items: center;
+    padding: 43px;
+    align:left;
+
+}
+    
+
+
