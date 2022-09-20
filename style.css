@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+
+#bola{
+    border: 3px solid black;
+    background-color: white;
+    width: 110px;
+    height: 110px;
+    border-radius: 75px;
+}
+header img{
+    width: 100px;
+    height: 100px;
+    display: flex;
+}
+header{
+    width: 100%;
+    border: 5px solid white;
+    display: flex;
+    border-radius: 73px;
+}
+#inicio > ul{
+
+}
