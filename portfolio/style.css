@@ -26,5 +26,5 @@ header{
     border-radius: 73px;
 }
 #inicio > ul{
-
+    list-style: none;
 }
