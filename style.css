@@ -7,6 +7,7 @@
 }
 body{
     background-color: black;
+    
 }
 ul{
     color: white;
@@ -15,7 +16,7 @@ ul{
 
 #bola{
     border: 3px solid black;
-    background-color: rgba(255, 255, 255, 0.307);
+    background-color: rgb(255, 255, 255);
     width: 110px;
     height: 110px;
     border-radius: 75px;
@@ -50,7 +51,8 @@ ul{
 a:hover{
     cursor: pointer;
     text-shadow: 9px 9px 9px;
-    color: rgb(75, 35, 116);
+    transition: all 1s;
+    color: rgb(95, 61, 127);
 }
 .pt1{
     box-sizing: border-box;
@@ -63,6 +65,13 @@ a:hover{
     
     border: 5px solid #FFFFFF;
     border-radius: 31px;
+    animation-name: pt1;
+    animation-duration: 3s;  
+    animation-fill-mode: forwards;
+}
+@keyframes pt1{
+    from {top: 0px;}
+    to{top: 100px;}
 }
 #bolafoda1{
     box-sizing: border-box;
@@ -162,6 +171,13 @@ a:hover{
     display: flex;
     padding: 23px;
     align-items: center;
+    animation-name: pt2;
+    animation-duration: 3s;  
+    animation-fill-mode: forwards;
+}
+@keyframes pt2{
+    from{top:0px;}
+    to{top:54.12%;}
 }
 .pt3{
     box-sizing: border-box;
@@ -178,6 +194,13 @@ a:hover{
     display: flex;
     padding: 23px;
     align-items: center;
+    animation-name: pt3;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes pt3{
+    from{top:0px;}
+    to{top:74.12%;}
 }
 #bolafoda4{
     box-sizing: border-box;
@@ -245,17 +268,29 @@ a:hover{
     font-size: 32px;
     line-height: 0%;
     color:#00FF38;
+    animation: animate 0.5s linear infinite;
+}
+@keyframes animate{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.7;
+    }
+    100%{
+        opacity: 0;
+    }
 }
 .linha{
     width: 100%;
     position: absolute;
     border: 5px solid white;
-    top: 91.35%;
+    top: 47vw;
 }
 #texto1{
     position:absolute;
     left: 17px;
-    top: 94%;
+    top: 47.6vw;
     color:white;
     font-family: 'Reem Kufi Ink';
     font-size: 32px;
@@ -264,5 +299,20 @@ a:hover{
     width: 385px;
     height: 385px;
     margin-left: 64%;
-    
+    animation: lua 8s linear infinite;
+    animation-name: lua;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
 }
+@keyframes lua{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.7;
+    }
+    100%{
+        opacity: 0;
+    }
+    from{top:0px;}
+    to{top:74.12%;}
