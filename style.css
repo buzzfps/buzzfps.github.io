@@ -121,7 +121,7 @@ a:hover{
     position: absolute;
     top: 10.62%;
     bottom: 89.38%;
-    width: 763px;
+    width: 47.6rem;
 
     border: 4px solid #FFFFFF;
 }
@@ -133,8 +133,8 @@ a:hover{
     right: 17.3%;
     top: 14.6%;
     bottom: 71.24%;
-    width: 607.68px;
-    height: 90.62px;
+    width: 34rem;
+    height: 5.6rem;
     color:#0084FE;
 
     border: 0.3rem solid #FFFFFF;
@@ -167,8 +167,8 @@ a:hover{
 .pt2{
     box-sizing: border-box;
     position: absolute;
-    left: 73rem;
-    top: 15rem;
+    right: 15rem;
+    top: 32rem;
     bottom: 0%;
     width: 512px;
     height: 136px;
@@ -184,14 +184,15 @@ a:hover{
     animation-fill-mode: forwards;
 }
 @keyframes pt2{
-    from{top:0px;}
-    to{top:54.12%;}
+    0% {right: -100%;}
+    50%{right: 15rem;}
+    100%{right: 15rem;}
 }
 .pt3{
     box-sizing: border-box;
     position: absolute;;
-    left: 73rem;
-    top: 74.12rem;
+    right: 15rem;
+    top: 45.5rem;
     bottom: 0%;
     width: 32rem;
     height: 9.4rem;
@@ -207,8 +208,9 @@ a:hover{
     animation-fill-mode: forwards;
 }
 @keyframes pt3{
-    from{top:0px;}
-    to{top:74.12%;}
+    0%{right:-100%;}
+    50%{right:15rem;}
+    100%{right: 15rem}
 }
 #bolafoda4{
     box-sizing: border-box;
